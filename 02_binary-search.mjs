@@ -36,3 +36,5 @@ console.log('array length: ', array.length);
 console.log('array: ', array);
 console.log('searching index: ', binarySearch(array, 917));
 console.log('count: ', count);
+
+// сложность O(log2n) - логарифм n по основанию 2, то есть при 16 элементах массива максимальное количество операций - 4
