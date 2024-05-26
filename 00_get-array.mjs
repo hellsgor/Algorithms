@@ -15,7 +15,7 @@ export function getArray(length, isSorted, isUniqueValues, range = null) {
 
   const array = isUniqueValues && !isSorted ? new Set() : [];
 
-  for (let i = 1; i <= length; i++) {
+  for (let i = 0; i < length; i++) {
     if (isUniqueValues && !isSorted) {
       let value = getValue();
       while (array.has(value)) {
